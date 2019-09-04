@@ -1,0 +1,15 @@
+dist: xenial
+sudo: required
+
+# only pull the last commit (faster)
+git:
+  depth: 1
+
+# provides us docker
+services:
+  - docker
+
+language: cpp
+
+script:
+  - docker build .
