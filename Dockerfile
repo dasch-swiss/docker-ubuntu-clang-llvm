@@ -23,15 +23,9 @@ RUN \
     libomp-8-dev \
     g++-7 \
     libwebsocketpp-dev \
-    openssl \
-    libssl-dev \
-    zlib1g-dev \
     ninja-build \
     make \
-    wget \
-    vim \
-    doxygen \
-    graphviz
+    wget
 
 ENV CC clang-8
 ENV CXX clang++-8
